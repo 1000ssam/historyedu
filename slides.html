@@ -42,6 +42,8 @@
 
   /* ── 슬라이드 타입별 배경 ── */
   .slide.cover      { background: linear-gradient(135deg, #0d1b2a 0%, #1b2838 60%, #0d1b2a 100%); }
+  .slide.intro      { background: linear-gradient(135deg, #0f1a2a 0%, #162640 100%); }
+  .slide.region     { background: linear-gradient(135deg, #1a1a0f 0%, #28281a 100%); }
   .slide.question   { background: linear-gradient(135deg, #12111a 0%, #1a1528 100%); }
   .slide.data       { background: linear-gradient(135deg, #0f1f0f 0%, #1a2a1a 100%); }
   .slide.paradox    { background: linear-gradient(135deg, #1a0f0f 0%, #2a1a1a 100%); }
@@ -361,7 +363,7 @@
 
   <!-- ── 슬라이드 1: 표지 ── -->
   <div class="slide cover active">
-    <div class="slide-num">01 / 09</div>
+    <div class="slide-num">01 / 11</div>
     <div class="tag">동아시아사 · 첫 번째 수업</div>
     <h1>우리는 왜<br>서로를 이렇게 보는가?</h1>
     <div class="divider"></div>
@@ -371,9 +373,77 @@
     </div>
   </div>
 
-  <!-- ── 슬라이드 2: 도입 질문 ── -->
+  <!-- ── 슬라이드 2: 왜 동아시아사인가 ── -->
+  <div class="slide intro">
+    <div class="slide-num">02 / 11</div>
+    <div class="tag">과목 소개</div>
+    <h2>왜 <span class="hl">동아시아사</span>를 배우는가?</h2>
+    <ul class="item-list">
+      <li>
+        <div class="item-num">1</div>
+        <div>한국사만으로는 보이지 않는 것들이 있다<br>
+        <small style="opacity:0.55;">— 같은 사건도 한·중·일의 시각이 다르다</small></div>
+      </li>
+      <li>
+        <div class="item-num">2</div>
+        <div>오늘의 갈등은 어제의 역사에서 비롯된다<br>
+        <small style="opacity:0.55;">— 영토 분쟁, 역사 왜곡 논란, 상호 혐오의 뿌리</small></div>
+      </li>
+      <li>
+        <div class="item-num">3</div>
+        <div>미래의 협력을 위해 과거를 이해해야 한다<br>
+        <small style="opacity:0.55;">— 경제·안보·문화에서 이웃 없이는 살 수 없는 구조</small></div>
+      </li>
+    </ul>
+    <div class="history-note">
+      📚 동아시아사는 2012년부터 고등학교 선택과목으로 개설되었습니다.<br>
+      자국사 중심 교육의 한계를 넘어, <strong>지역의 상호 관계</strong> 속에서 역사를 이해하자는 취지입니다.
+    </div>
+  </div>
+
+  <!-- ── 슬라이드 3: 동아시아란 어디인가 ── -->
+  <div class="slide region">
+    <div class="slide-num">03 / 11</div>
+    <div class="tag">지역 개념</div>
+    <h2><span class="hl">동아시아</span>란 어디인가?</h2>
+    <div class="card-row">
+      <div class="card neutral">
+        <div class="num" style="font-size:28px;">🇰🇷 🇨🇳 🇯🇵</div>
+        <div class="label">한국 · 중국 · 일본<br><small>핵심 3국</small></div>
+      </div>
+      <div class="card neutral">
+        <div class="num" style="font-size:28px;">🇻🇳 🇲🇳</div>
+        <div class="label">베트남 · 몽골<br><small>확장된 동아시아</small></div>
+      </div>
+    </div>
+    <div class="two-col" style="margin-top:20px;">
+      <div class="col" style="background:rgba(240,180,41,0.08); border:1px solid rgba(240,180,41,0.2);">
+        <div class="col-title">공유하는 것</div>
+        <div class="col-main">
+          <span class="hl">한자</span> 문화권 · <span class="hl">유교</span> 전통<br>
+          <span class="hl">불교</span> 수용 · <span class="hl">율령</span> 체제<br>
+          벼농사 · 젓가락 문화
+        </div>
+      </div>
+      <div class="col" style="background:rgba(122,173,255,0.08); border:1px solid rgba(122,173,255,0.2);">
+        <div class="col-title">하지만 동시에</div>
+        <div class="col-main">
+          끊임없는 <span class="hl-red">전쟁과 침략</span><br>
+          서로 다른 <span class="hl-red">역사 해석</span><br>
+          각기 다른 근대화 경로
+        </div>
+      </div>
+    </div>
+    <div class="q-box" style="margin-top:20px;">
+      <div class="q-label">생각해보세요</div>
+      '동아시아'는 원래부터 존재한 개념일까?<br>
+      <span class="hl">아니면 근대 이후에 만들어진 구분일까?</span>
+    </div>
+  </div>
+
+  <!-- ── 슬라이드 4: 도입 질문 ── -->
   <div class="slide question">
-    <div class="slide-num">02 / 09</div>
+    <div class="slide-num">04 / 11</div>
     <div class="tag">오프닝 퀴즈</div>
     <h2>한국인이 가장 싫어하는 나라는<br>어디일까요?</h2>
     <div class="sub">(2025년 6월 조사 기준 · N=1,509)</div>
@@ -392,7 +462,7 @@
 
   <!-- ── 슬라이드 3: 반전 데이터 ── -->
   <div class="slide data">
-    <div class="slide-num">03 / 09</div>
+    <div class="slide-num">05 / 11</div>
     <div class="tag">2025년 실제 데이터</div>
     <h2>정답은 <span class="hl-red">중국</span>입니다</h2>
     <div class="card-row">
@@ -418,7 +488,7 @@
 
   <!-- ── 슬라이드 4: 역설 ── -->
   <div class="slide paradox">
-    <div class="slide-num">04 / 09</div>
+    <div class="slide-num">06 / 11</div>
     <div class="tag">핵심 역설</div>
     <h2>좋아하는 이유와<br>싫어하는 이유가 공존한다</h2>
     <div class="two-col">
@@ -448,7 +518,7 @@
 
   <!-- ── 슬라이드 5: 비교 ── -->
   <div class="slide compare">
-    <div class="slide-num">05 / 09</div>
+    <div class="slide-num">07 / 11</div>
     <div class="tag">한·중 vs 한·일 비교</div>
     <h2>두 나라를 싫어하는<br>이유가 다릅니다</h2>
     <div class="two-col">
@@ -478,7 +548,7 @@
 
   <!-- ── 슬라이드 6: 딜레마 ── -->
   <div class="slide dilemma">
-    <div class="slide-num">06 / 09</div>
+    <div class="slide-num">08 / 11</div>
     <div class="tag">구조적 딜레마</div>
     <h2>싫지만 <span class="hl">필요한</span> 나라</h2>
     <div class="card-row">
@@ -508,7 +578,7 @@
 
   <!-- ── 슬라이드 7: 위협 인식 ── -->
   <div class="slide threat">
-    <div class="slide-num">07 / 09</div>
+    <div class="slide-num">09 / 11</div>
     <div class="tag">2025년 최대 위협 인식</div>
     <h2>1년 만에 순위가<br>완전히 바뀌었다</h2>
     <div class="bars">
@@ -539,7 +609,7 @@
 
   <!-- ── 슬라이드 8: 핵무장 ── -->
   <div class="slide nuclear">
-    <div class="slide-num">08 / 09</div>
+    <div class="slide-num">10 / 11</div>
     <div class="tag">가장 충격적인 숫자</div>
     <h2>북한이 핵을 포기하지 않으면<br>한국도 핵무장해야 한다</h2>
     <div class="big-num">75.1%</div>
@@ -558,7 +628,7 @@
 
   <!-- ── 슬라이드 9: 마무리 ── -->
   <div class="slide closing">
-    <div class="slide-num">09 / 09</div>
+    <div class="slide-num">11 / 11</div>
     <div class="tag">이번 학기의 질문들</div>
     <h2>우리가 함께 물어볼 것들</h2>
     <ul class="item-list">
@@ -590,7 +660,7 @@
 <!-- 네비게이션 -->
 <div class="nav">
   <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">←</button>
-  <div class="nav-counter" id="counter">1 / 9</div>
+  <div class="nav-counter" id="counter">1 / 11</div>
   <button class="nav-btn" id="nextBtn" onclick="navigate(1)">→</button>
 </div>
 
